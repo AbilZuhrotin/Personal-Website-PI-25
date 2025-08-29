@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-color: #f4f0eb;
+    font-family:Montserrat;
+}
+nav{
+    margin: 40px 50px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: #3f494e;
+    font-weight: 500;
+}
+.hero{
+    margin: 50px 100px;
+    display: flex;
+}
+.hero img{
+    margin: 20px 40px;
+}
+.hero-text{
+   display: flex;
+    margin: 20px 40px;
+    gap: 0px;
+    color: #3f494e;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-text h1{
+    margin: 10px 0px;
+    font-size: 100px;
+}
+.icon-sosmed{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.icon-sosmed a{
+    color: #3f494e;
+}
