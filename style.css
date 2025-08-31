@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    padding: 0;
     background-color: #f4f0eb;
     font-family:Montserrat;
 }
@@ -188,4 +189,46 @@ nav a:hover{
     border: none;
     border-radius: 2px;
     cursor: pointer;
+}
+
+/* Styling Footer */
+footer{
+    padding: 20px 0px;
+    background-color: #466c7b;
+    color: white;
+}
+footer p{
+    text-align: center;
+}
+.footer{
+    padding:50px 100px;
+    display: flex;
+    gap: 250px;
+}
+.footer-isi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-isi img{
+    display: flex;
+    width: 90px;
+    border-radius: 100%;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.sosmed-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.sosmed-footer a{
+    color: white;
 }
