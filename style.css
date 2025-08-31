@@ -151,3 +151,40 @@ nav a:hover{
 #tech-icon img{
     width: 30px;
 }
+
+/* Styling Blog */
+.blog{
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    color: #3f494e;
+}
+.artikel{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.card-blog{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: white;
+    border-radius: 6px;
+    align-items: center;
+}
+#card-fill p{
+    margin: 0;
+    width: 115px;
+    padding: 15px 30px;
+    border: #466c7b solid 1px;
+    text-align: center;
+}
+#my-button{
+    height: 40px;
+    width: 150px;
+    background-color: #466c7b;
+    color: #f4f0eb;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
