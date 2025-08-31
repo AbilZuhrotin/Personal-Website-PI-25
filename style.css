@@ -57,7 +57,7 @@ nav a:hover{
 }
 
 
-/* Styling about */
+/* Styling Aout */
 .about{
     margin: 50px 100px;
     display: flex;
@@ -114,4 +114,40 @@ nav a:hover{
 }
 #tech img{
     width: 50px;
+}
+
+/* Styling Portofolio */
+.portofolio{
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    color: #3f494e;
+}
+.projek{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.projek a{
+    display: flex;
+    flex-direction: row;
+    padding: 60px 50px;
+    gap: 50px;
+    text-decoration: none;
+}
+#card-projek{
+    background-color: white;
+    border-radius: 8px;
+}
+#card-projek img{
+    width: 500px;
+}
+#card-fill{
+    display: flex;
+    flex-direction: column;
+    color: #3f494e;
+    text-align: justify;
+}
+#tech-icon img{
+    width: 30px;
 }
